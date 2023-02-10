@@ -1,0 +1,56 @@
+; Note: Duplicate of the code/data starting at $00FEC2
+
+UNK_01FEC2:						
+	db $2A,$0A,$28,$C2,$AB,$EA,$20,$8A,$2A,$92,$A0,$3A,$C0,$AE,$A8,$20
+	db $EE,$8A,$A8,$10,$A8,$AE,$AA,$AA,$80,$08,$8A,$08,$98,$A8,$02,$8A
+	db $8B,$22,$8E,$82,$A0,$8A,$AA,$8A,$CA,$A2,$02,$8A,$E8,$82,$66,$2A
+	db $01,$38,$A2,$2A,$82,$0A,$8A,$2A,$22,$C6,$0E,$AA,$8A,$2A,$FE,$F8
+	db $07,$AF,$BA,$CB,$AA,$7A,$B2,$AE,$FA,$A2,$BF,$A9,$FE,$EA,$8C,$AC
+	db $A3,$AA,$2C,$AB,$AE,$BC,$AB,$AA,$BA,$A2,$EA,$0A,$B2,$AC,$FC,$A9
+	db $AB,$AB,$2B,$BA,$EA,$BB,$AB,$BE,$F0,$BA,$8A,$CC,$BF,$AE,$AA,$AC
+	db $A2,$AE,$BE,$93,$AB,$2A,$B6,$AA,$AB,$AA,$2E,$EF,$2E,$BE,$BD,$2A
+	db $BB,$AA,$ED,$A6,$BE,$BA,$BC,$9B,$A6,$F2,$36,$AA,$AA,$A9,$BE,$A6
+	db $52,$6E,$EA,$BA,$B2,$BB,$BA,$6F,$82,$23,$AA,$AA,$BE,$BA,$EC,$BA
+	db $A2,$BE,$F8,$A2,$E7,$FA,$EA,$D8,$28,$2B,$4B,$8E,$6B,$8A,$AA,$2B
+	db $AA,$AA,$2B,$AE,$6E,$AC,$AE,$AE,$FC,$AA,$A8,$8D,$EA,$EA,$20,$8A
+	db $86,$98,$B3,$0E,$E0,$0B,$28,$A0,$BA,$8F,$B0,$A2,$9A,$A4
+
+ADDR_01FF90:
+	JMP.w $0197DB
+
+ADDR_01FF93:
+	JMP.w $019752
+
+ADDR_01FF96:
+	JMP.w $0195F0
+
+ADDR_01FF99:
+	JMP.w $019675
+
+ADDR_01FF9C:
+	JMP.w $0197BA
+
+UNK_01FF9F:
+	db $F3
+
+ADDR_01FFA0:
+	JMP.w $01C0F8
+
+ADDR_01FFA3:
+	JMP.w $019B66
+
+ADDR_01FFA6:
+	JMP.w $0197A0
+
+ADDR_01FFA9:
+	JMP.w $01FFA9
+
+UNK_01FFAC:
+	dw $0000,$AEF5
+
+UNK_01FFB0:
+	dw $0000,$0000,$0000,$0000,$0000,$0000,$0000,$0000
+	dw $0000,$0000,$0000,$0000,$0000,$0000,$0000,$0000
+	dw $0000,$0000,$0000,$0000,$0000,$0000,$0000,$0000
+	dw $0000,$0000,$8628,$8000,$8004,$9F3D,$0000,$9CF4
+	dw $0000,$0000,$8628,$0000,$8004,$8004,$8005,$9CF4
